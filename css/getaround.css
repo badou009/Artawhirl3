@@ -1,0 +1,815 @@
+.container {
+    width: 100vw; 
+    height: auto;
+
+}
+
+section {
+    position: relative; 
+}
+
+h1 {
+    font-size: 7em;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 85%;
+    transform: translate(-50%,-50%);
+    font-family: 'impact';
+    width: 1500px;
+    text-align: right;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+    font-family: 'helvetica';
+    width: 900px;
+    text-align: right;
+}
+
+h3 {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    font-family: 'helvetica';
+    width:1000px;
+    text-align: center;
+}
+
+
+.button {
+  background: url(../images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  position: absolute;
+  left: 43%;
+  top: 8%;
+}
+
+
+
+
+.navigation {
+    width: 100vw;
+    height: 200px;
+    background: #1A4543;
+    position: absolute; 
+    z-index: 1; 
+}
+
+ul {
+    list-style: none;
+    margin-top: 140px;
+    font-size: 2em;
+    font-family: 'impact';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 870px;
+}
+
+
+
+li {
+    float: left; 
+    margin-left: 120px;
+}
+
+li:first-child {
+    float: left; 
+    margin-left: 0px; 
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+    z-index: 2;
+}
+
+
+
+.home { 
+  width: 100vw; 
+  height: 85vh; 
+ background: url(../images/cab.jpg);
+ background-size: cover;
+}
+
+
+
+.open {
+	width: 100vw; 
+	height: 5000px;
+	background: #f7f2e0;
+	background-size: cover;
+	margin: left;
+}
+
+.title11 {
+    font-family: impact;
+    color: white;
+    font-size: 4em;
+    top: 15%;
+    left: 30%;
+    position: absolute;
+}
+
+.caption11 {
+    color: white;
+    font-family: helvetica;
+    font-size: 1.5em;
+    width: 800px;
+    text-align: left;
+    left: 30%;
+    top: 40%;
+    position: absolute;
+}
+
+.caption12 {
+    color: white;
+    font-family: helvetica;
+    font-size: 1.5em;
+    width: 250px;
+    text-align: right;
+    left: 8%;
+    top: 30%;
+    position: absolute; 
+}
+
+.bikes {
+    width: 100vw;
+    height: 50%;
+    background: url(../images/bikes.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 63%;
+    position: absolute;
+}
+.racks {
+    font-family: helvetica;
+    color: white;
+    font-size: 1.2em;
+    text-align: left;
+    left: 76%;
+    top: 20%;
+    font-weight: bold;
+    width: 275px;
+    position: absolute;
+}
+
+.buch {
+    color: white;
+    font-family: helvetica;
+    font-size: 1em;
+    text-align: left;
+    position: absolute;
+    font-weight: bold;
+    left: 76%;
+    top: 25%;
+    width: 275px;
+}
+
+.indeed {
+    color: white;
+    font-family: helvetica;
+    font-size: 1em;
+    text-align: left;
+    position: absolute;
+    font-weight: bold;
+    left: 76%;
+    top: 30%;
+    width: 275px;
+}
+
+.bauhaus {
+    color: white;
+    font-family: helvetica;
+    font-size: 1em;
+    text-align: left;
+    position: absolute;
+    font-weight: bold;
+    left: 76%;
+    top: 35%;
+    width: 275px;
+}
+
+.see {
+    color: white;
+    font-family: helvetica;
+    font-size: 1.5em;
+    text-align: left;
+    position: absolute;
+    font-weight: bold;
+    left: 76%;
+    top: 40%;
+    width: 275px;
+    text-decoration: underline;
+}
+
+.sponsortext {
+    font-size: 4em;
+    color: #1a4543;
+    position: absolute;
+    left: 40%;
+    top: 87%;
+    font-family: 'impact';
+}
+
+
+l15 {
+    display: list-item;
+    margin-bottom: 45px;
+    list-style-type: square;
+}
+
+h11 {
+font-size: 9em;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    font-family: 'impact';
+    text-align: right;
+}
+.title2 {
+	font-size: 4em;
+	color: #fc5c38;
+	position: absolute;
+	left: 30%;
+	font-family: 'impact';
+}
+
+.caption2 {
+	font-size: 2em;
+	color: black;
+	position: absolute;
+	left: 50px;
+	top: 210px;
+	font-family: 'helvetica';
+    width: 800px;
+}
+
+
+.swag {
+    width: 100vw; 
+    height: 900px;
+    background: #f7f2e0;
+    background-size: cover;
+    margin: left;
+    text-align: center;
+}
+
+.trolleys {
+     width: 100vw;
+    height: 100vw;
+    background: url(../images/trolley.jpeg);;
+    text-align: center;
+    background-size: contain;
+    top: 50%;
+}
+
+h8 {
+    font-size: 9em;
+    color: white;
+    position: absolute;
+    left: 53%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    font-family: 'impact';
+    text-align: left;
+}
+
+h5 {
+    font-size: 1em;
+    color: white;
+    font-family: helvetica;
+    text-align: right;
+    position: relative;
+    top: 600px;
+    padding: 100px;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    top: 500px;
+}
+
+.title3 {
+	font-size: 3em;
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	font-family: 'impact';
+}
+
+.caption3 {
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 210px;
+	font-family: 'impact';
+}
+
+
+.artists {
+    width: 100vw; 
+    height: 1200px;
+    background: #f7f2e0;
+    background-size: cover;
+    margin: left;
+    top: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3em;
+    color: #1a4543;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 1.75em;
+    color: #1a4543;;
+    position: absolute;
+    left: 20%;
+    top: 210px;
+    margin-right: 20px;
+    font-family: 'helvetica';
+}
+
+.pdfmap {
+    font-size: 1.75em;
+    color: red;;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    font-family: 'helvetica';
+    text-decoration: underline;
+}
+
+.map {
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    background: url(../images/map.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 450px;
+    left: 16%;
+}
+
+.title4 {
+	font-size: 3em;
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	font-family: 'impact';
+}
+
+.caption4 {
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 210px;
+	font-family: 'impact';
+}
+
+
+.around {
+	width: 100vw; 
+	height: 900px;
+	background: #f7f2e0;
+	background-size: cover;
+	margin: left;
+	top: 50%;
+    text-align: center;
+}
+
+.quincy {
+    width: 100vw;
+    height: 100vw;
+    background: url(../images/quincy.jpeg);;
+    text-align: center;
+    background-size: contain;
+}
+
+h4 {
+    font-size: 9em;
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+    font-family: 'impact';
+    text-align: right;
+}
+
+h7 {
+    position: absolute;
+    color: white;
+    font-family: helvetica;
+    font-size: 1.5em;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'helvetica';
+    text-align: right;
+}
+
+h6 {
+    font-size: 1em;
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    padding: 100px;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    left: 72%;
+    top: 300px;
+}
+
+ul7 {
+    font-family: helvetica;
+    color: white;
+    font-size: .9em;
+    text-align: left;
+    left: 76%;
+    top: 55%;
+    font-weight: bold;
+    position: absolute;
+    width: 350px;
+}
+
+l14 {
+    display: list-item;
+    list-style-type: square;
+    list-style: none;
+}
+.therest {
+    height: 2000 px;
+}
+
+
+.sponsors {
+    width: 1334px; 
+    height: 358px;
+    background: url(../images/sponsor.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 70px;
+    top: 90%;
+    position: absolute;
+}
+
+.welcome {
+	width: 100vw; 
+	height: 1800px;
+	background: #f7f2e0;
+	margin: left;
+	top: 50%;
+	text-align: left;
+}
+
+ul2 {
+    list-style: none;
+    font-size: 1.25em;
+    font-family: 'helvetica';
+    position: absolute;
+    left: 28%;
+    top: 18%;
+    transform: translateX(-50%);
+    width: 700px;
+
+}
+
+li1 {
+    display: list-item;
+    margin-bottom: 45px;
+    list-style-type: square;
+}
+
+.title7 {
+	font-size: 5em;
+	color: #1a4543;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	font-family: 'impact';
+	width: 1000px;
+}
+.caption7 {
+	font-size: 1.5em;
+	color: #1A4543 ;
+	position: absolute;
+	left: 50px;
+	top: 13%;
+	font-family: 'helvetica';
+    font-weight: bold;
+}
+
+.metrotrip {
+    color: red;
+    text-decoration: underline;
+    font-size: 1.5em;
+    top: 53%;
+    left: 55px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.access {
+    width: 100vw;
+    height: 400px;
+    background: url(../images/access.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 23%;
+}
+
+.passtext {
+    color: white;
+    font-size: 2em;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+
+
+.fripass {
+  width: 350px;
+  height: 625px;
+  background: url(../images/fri.jpeg);
+  background-size: cover;
+  top: 60%;
+  left: 55px;
+  position: absolute;
+    text-align: center;
+    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.satpass {
+  width: 350px;
+  height: 625px;
+  background: url(../images/sat.jpeg);
+  background-size: cover;
+  left: 500px;
+  position: absolute;
+    text-align: center;
+    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.sunpass {
+  width: 350px;
+  height: 625px;
+  background: url(../images/sun.jpeg);
+  background-size: cover;
+  left: 500px;
+  position: absolute;
+text-align: center;
+    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+h3 {
+    font-family: impact;
+    color: white;
+    font-size: 3em;
+}
+ul3 {
+    list-style: none;
+    font-size: 1.25em;
+    font-family: 'helvetica';
+    position: absolute;
+    left: 30%;
+    top: 140px;
+    transform: translateX(-50%);
+    width: 700px;
+
+}
+ul4 {
+    list-style: none;
+    font-size: 1.25em;
+    font-family: 'helvetica';
+    position: absolute;
+    left: 30%;
+    top: 33%;
+    transform: translateX(-50%);
+    width: 700px;
+}
+
+li2 {
+    display: list-item;
+    margin-bottom: 45px;
+    list-style-type: square;
+}
+
+.footer { 
+    width: 100vw;
+    height: 600px;
+    background: #fc5c38;
+    padding: 20px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+}
+
+
+.footer-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 20px;
+
+}
+
+.footer-tabs button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: impact;
+    color: white;
+    background: #fc5c38;
+    font-size: 1.75em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-left, .text-right {
+    font-size: 17px;
+    color: white;
+
+}
+
+.white-box {
+    width: 200px;
+    height: 200px;
+    background: url(../images/logo.png);
+    background-size: contain;
+        background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.text-right {
+    text-align: center;
+    color: white;
+}
+
+.text-left {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-text {
+        text-align: center;
+    }
+}
+
+.insta {
+    width: 50px;
+    height: 50px;
+    background: url(../images/insta.png);
+    background-size: cover;
+}
+
+.youtube {
+    width: 50px;
+    height: 50px;
+    background: red;
+    background: url(../images/youtube.webp);
+    background-size: cover;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    background: green;
+    background: url(../images/facebook.png);
+    background-size: cover;
+}
+
+.other {
+    font-size: 4em;
+    color: #8f2f68;
+    position: absolute;
+    left: 30%;
+    top: 44%;
+    font-family: 'impact';
+}
+
+li3 {
+    display: list-item;
+    margin-bottom: 45px;
+    list-style-type: square;
+
+}
+ul5 {
+    list-style: none;
+    font-size: 1.25em;
+    font-family: 'helvetica';
+    position: absolute;
+    left: 31%;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+}
+
+li4 {
+    display: list-item;
+    margin-bottom: 45px;
+    list-style-type: square;
+}
+ul6 {
+    list-style: none;
+    font-size: 1.25em;
+    font-family: 'helvetica';
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+}
+
+.freepark {
+    font-size: 2em;
+    font-family: helvetica;
+    top: 48%;
+    left: 100px;
+    position: absolute;
+    color: #1a4543;
+    font-weight: bold;
+}
+
+.paidpark {
+    font-size: 2em;
+    font-family: helvetica;
+    top: 48%;
+    left: 780px;
+    position: absolute;
+    color: #1a4543;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+

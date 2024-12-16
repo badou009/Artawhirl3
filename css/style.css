@@ -1,0 +1,458 @@
+.container {
+	width: 100vw; 
+	height: auto;
+}
+
+section {
+	position: relative; 
+}
+
+h1 {
+	font-size: 7em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'impact';
+	width: 900px;
+}
+
+h2 {
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 62%;
+	transform: translate(-50%,-50%);
+	font-family: 'helvetica';
+	width: 900px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%,-50%);
+	font-family: 'helvetica';
+	width:1000px;
+	text-align: center;
+}
+
+
+.button {
+  background: url(../images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  position: absolute;
+  left: 43%;
+  top: 8%;
+}
+
+
+
+.navigation {
+	width: 100vw;
+	height: 200px;
+	background: #1A4543;
+	position: fixed; 
+	z-index: 1; 
+}
+
+ul {
+	list-style: none;
+	margin-top: 140px;
+	font-size: 2em;
+	font-family: 'impact';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 870px;
+}
+
+
+li {
+	float: left; 
+	margin-left: 120px; 
+}
+
+li:first-child {
+	float: left; 
+	margin-left: 0px; 
+}
+
+a {
+	color: white;
+	text-decoration: none; 
+	z-index: 2;
+}
+
+
+
+.home { 
+  width: 100vw; 
+  height: 150vh; 
+ background: url(../images/whirls.jpg);
+ background-size: cover;
+}
+
+
+
+.activities {
+	width: 100vw; 
+	height: 1600px;
+	background: #f7f2e0;
+	background-size: cover;
+	margin: left;
+	top: 50%;
+}
+
+.open {
+	width: 450px;
+	height: 450px;
+	background: url(../images/open.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 4%;
+	top: 50px;
+	position: absolute;
+}
+
+.titleopen {
+	font-family: impact;
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+
+.opentext {
+	font-family: helvetica;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 65%;
+	width: 300px;
+}
+
+.shop {
+	width: 450px;
+	height: 450px;
+	background: url(../images/shop.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 35%;
+	top: 50px;
+	position: absolute;
+}
+
+.titleshop {
+	font-family: impact;
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+
+.shoptext {
+	font-family: helvetica;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 65%;
+	width: 300px;
+}
+
+.act {
+	width: 450px;
+	height: 450px;
+	background: url(../images/act.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 66%;
+	top: 50px;
+	position: absolute;
+}
+
+.titleact {
+	font-family: impact;
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+
+.acttext {
+	font-family: helvetica;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 65%;
+	width: 300px;
+}
+
+.around {
+	width: 450px;
+	height: 450px;
+	background: url(../images/around.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 4%;
+	top: 32.5%;
+	position: absolute;
+}
+
+.titlearound {
+	font-family: impact;
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+
+.aroundtext {
+	font-family: helvetica;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 65%;
+	width: 300px;
+}
+
+.swag {
+	width: 450px;
+	height: 450px;
+	background: url(../images/swag.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 35%;
+	top: 32.5%;
+	position: absolute;
+}
+
+.titleswag {
+	font-family: impact;
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+
+.swagtext {
+	font-family: helvetica;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 65%;
+	width: 300px;
+}
+
+.artists {
+	width: 450px;
+	height: 450px;
+	background: url(../images/artists.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 66%;
+	top: 32.5%;
+	position: absolute;
+}
+
+.titleartists {
+	font-family: impact;
+	font-size: 4em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+
+.artiststext {
+	font-family: helvetica;
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 65%;
+	width: 300px;
+}
+
+
+.sponsortext {
+    font-size: 4em;
+    color: #1a4543;
+    position: absolute;
+    left: 40%;
+    top: 68%;
+    font-family: 'impact';
+}
+
+.sponsors {
+    width: 1334px; 
+    height: 358px;
+    background: url(../images/sponsor.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 70px;
+    top: 73%;
+    position: absolute;
+}
+
+
+.welcome {
+	width: 100vw; 
+	height: 400px;
+	background: #f7f2e0;
+	margin: left;
+	top: 50%;
+	text-align: left;
+}
+
+.title7 {
+	font-size: 5em;
+	color: #ac2560;
+	position: absolute;
+	left: 50px;
+	top: 40%;
+	font-family: 'impact';
+	width: 500px;
+}
+.caption7 {
+	font-size: 1.5em;
+	color: #1A4543 ;
+	position: absolute;
+	left: 30%;
+	top: 35%;
+	width: 1000px;
+	font-family: 'helvetica';
+}
+
+.footer { 
+	width: 100vw;
+	height: 600px;
+	background: #fc5c38;
+	padding: 20px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 20px;
+
+}
+
+.footer-tabs button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: impact;
+    color: white;
+    background: #fc5c38;
+    font-size: 1.75em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-left, .text-right {
+    font-size: 17px;
+    color: white;
+
+}
+
+.white-box {
+    width: 200px;
+    height: 200px;
+    background: url(../images/logo.png);
+    background-size: contain;
+		background-repeat: no-repeat;
+	margin-top: 50px;
+}
+
+.text-right {
+    text-align: center;
+    color: white;
+}
+
+.text-left {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-text {
+        text-align: center;
+    }
+}
+
+.insta {
+	width: 50px;
+	height: 50px;
+	background: url(../images/insta.png);
+	background-size: cover;
+}
+
+.youtube {
+	width: 50px;
+	height: 50px;
+	background: red;
+	background: url(../images/youtube.webp);
+	background-size: cover;
+}
+
+.facebook {
+	width: 50px;
+	height: 50px;
+	background: green;
+	background: url(../images/facebook.png);
+	background-size: cover;
+}
+
+
+
+
+
+
+}
+
+
+
